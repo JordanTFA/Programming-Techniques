@@ -17,9 +17,9 @@ public class Demo {
 
 	public static void main(String[] args) {
 		
-	      //illegal construct
-	      //Compile Time Error: The constructor SingleObject() is not visible
-	      //SingleObject object = new SingleObject();
+	    // Illegal construct
+	    // Compile Time Error: The constructor SingleObject() is not visible
+	    // SingleObject object = new SingleObject();
 		
 		SingleObject object = SingleObject.getInstance();
 		
