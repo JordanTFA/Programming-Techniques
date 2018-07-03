@@ -1,8 +1,8 @@
 package singleton;
 
-// https://www.tutorialspoint.com/design_pattern/singleton_pattern.htm
-
-/* Singleton pattern is one of the simplest design patterns in Java. 
+/* https://www.tutorialspoint.com/design_pattern/singleton_pattern.htm
+ * 
+ * Singleton pattern is one of the simplest design patterns in Java. 
  * This type of design pattern comes under creational pattern as this 
  * pattern provides one of the best ways to create an object.
  * 

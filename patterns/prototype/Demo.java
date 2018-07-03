@@ -1,6 +1,7 @@
 package prototype;
 
 /* https://www.tutorialspoint.com/design_pattern/prototype_pattern.htm
+ * 
  * Prototype pattern refers to creating duplicate object 
  * while keeping performance in mind. This type of design 
  * pattern comes under creational pattern as this pattern 
