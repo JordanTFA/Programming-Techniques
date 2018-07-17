@@ -10,8 +10,6 @@ package proxy;
  * to interface its functionality to outer world.
  */
 
-
-
 public class Demo {
 
 	public static void main(String[] args) {
