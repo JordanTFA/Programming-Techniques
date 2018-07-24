@@ -14,7 +14,7 @@ public class SingleObject {
 	}
 	
 	// Display message
-	public static void showMessage(){
+	public void showMessage(){
 		System.out.println("Hello World!");
 	}
 

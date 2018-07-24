@@ -24,7 +24,6 @@ public class Demo {
 		SingleObject object = SingleObject.getInstance();
 		
 		object.showMessage();
-
 	}
 
 }
