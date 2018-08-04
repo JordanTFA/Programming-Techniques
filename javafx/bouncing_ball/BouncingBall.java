@@ -44,12 +44,18 @@ public class BouncingBall extends Application{
 			double dx = 10; // Step on x or velocity
 			double dy = 3; // Step on y
 			
+			double sizeChange = 1;
+			double maxSize = 30;
+			double minSize = 10;
+			
 			@Override
 			public void handle(ActionEvent t){
 				
 				// Move the ball
 				ball.setLayoutX(ball.getLayoutX() + dx);
 				ball.setLayoutY(ball.getLayoutY() + dy);
+				
+				ball.setRadius(ball.getRadius() + sizeChange);
 				
 				Bounds bounds = canvas.getBoundsInLocal();
 				
@@ -66,6 +72,14 @@ public class BouncingBall extends Application{
 					
 					dy = -dy;
 				}
+				
+				if(ball.getRadius() >= maxSize || ball.getRadius() <= minSize){
+					sizeChange*= -1;
+				}
+				
+				/*if(ball.getRadius() <= minSize){
+					sizeChange = 1;
+				}*/
 					
 			}
 
