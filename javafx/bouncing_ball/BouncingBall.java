@@ -63,23 +63,19 @@ public class BouncingBall extends Application{
 				if(ball.getLayoutX() <= (bounds.getMinX() + ball.getRadius()) ||
 						ball.getLayoutX() >= (bounds.getMaxX() - ball.getRadius()) ){
 							
-					dx = -dx;
+					dx*= -1;
 				}
 			
 				// If the ball reaches the top or bottom border, make the step negative
 				if((ball.getLayoutY() >= (bounds.getMaxY() - ball.getRadius())) || 
                     (ball.getLayoutY() <= (bounds.getMinY() + ball.getRadius()))){
 					
-					dy = -dy;
+					dy*= -1;
 				}
 				
 				if(ball.getRadius() >= maxSize || ball.getRadius() <= minSize){
 					sizeChange*= -1;
 				}
-				
-				/*if(ball.getRadius() <= minSize){
-					sizeChange = 1;
-				}*/
 					
 			}
 
