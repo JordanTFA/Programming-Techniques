@@ -1,5 +1,8 @@
 # Programming-Techniques
 
+JSoup:
+Notorious Names
+
 JavaFX:
 Moving Ball
 Bouncing Ball
@@ -32,3 +35,7 @@ Visitor Pattern
 Interpreter Pattern
 Iterator Pattern
 Memento Pattern
+
+To do:
+Spring
+Hibernate
